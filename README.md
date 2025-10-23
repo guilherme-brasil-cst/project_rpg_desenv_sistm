@@ -16,14 +16,16 @@ Antes de rodar o projeto, verifique se possui instalado:
 - *.NET 9 SDK*  
   Verifique com:
   bash
+  ```
   dotnet --version
-  
+  ```
   Deve começar com 9.
 
 - *(Opcional)* Ferramenta do Entity Framework CLI (para gerar migrations):
   bash
+  ```
   dotnet tool install --global dotnet-ef
-  
+  ```
 
 - *Editor*: Visual Studio Code, Visual Studio ou Rider.
 
@@ -53,24 +55,28 @@ Antes de rodar o projeto, verifique se possui instalado:
 
 ### 2️⃣ Restaurar dependências
 bash
+```
 dotnet restore
-
+```
 
 ### 3️⃣ (Opcional) Instalar o Entity Framework CLI
 bash
+```
 dotnet tool install --global dotnet-ef
-
+```
 
 ### 4️⃣ Criar as migrations e atualizar o banco
 bash
+```
 dotnet ef migrations add InitialCreate
 dotnet ef database update
-
+```
 
 ### 5️⃣ Executar o projeto
 bash
+```
 dotnet run
-
+```
 
 ---
 
@@ -78,16 +84,17 @@ dotnet run
 
 Quando você executa o comando:
 bash
+```
 dotnet run
-
+```
 
 O terminal exibirá algo como:
 
-
+```
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: https://localhost:5000
 Swagger disponível em: https://localhost:5000/swagger
-
+```
 
 ### ✨ O que acontece:
 
@@ -128,8 +135,9 @@ json
 O projeto também possui um modo CLI simples. Para usá-lo:
 
 bash
+```
 dotnet run -- --cli
-
+```
 
 ### Comandos disponíveis:
 
