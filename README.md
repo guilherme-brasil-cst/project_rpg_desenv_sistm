@@ -1,8 +1,7 @@
----
-Integrantes:
+//Integrantes:
 Guilherme Brasil - 22309720
 Gabriel Rodrigues - 22310104
----
+
 
 # 🧩 RPG_BD - API de Itens de RPG
 
