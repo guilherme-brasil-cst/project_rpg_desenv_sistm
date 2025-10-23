@@ -153,3 +153,4 @@ C:\Users\guibr\OneDrive\Área de Trabalho\RPG_BD_FINAL\obj\Debug\net9.0\refint\R
 C:\Users\guibr\OneDrive\Área de Trabalho\RPG_BD_FINAL\obj\Debug\net9.0\RPG_BD.pdb
 C:\Users\guibr\OneDrive\Área de Trabalho\RPG_BD_FINAL\obj\Debug\net9.0\RPG_BD.genruntimeconfig.cache
 C:\Users\guibr\OneDrive\Área de Trabalho\RPG_BD_FINAL\obj\Debug\net9.0\ref\RPG_BD.dll
+C:\Users\guibr\OneDrive\Área de Trabalho\RPG_BD_FINAL\obj\Debug\net9.0\RPG_BD.sourcelink.json

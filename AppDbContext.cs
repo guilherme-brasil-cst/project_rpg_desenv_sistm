@@ -15,10 +15,10 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<Item>()
             .HasIndex(i => i.Name)
-            .IsUnique();
+            .IsUnique(); // impede nomes duplicados
 
         modelBuilder.Entity<Item>()
             .Property(i => i.Price)
-            .HasPrecision(10,2);
+            .HasPrecision(10, 2);
     }
 }
